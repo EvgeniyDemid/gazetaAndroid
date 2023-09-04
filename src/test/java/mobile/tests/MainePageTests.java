@@ -15,7 +15,7 @@ public class MainePageTests extends TestBase {
 	private final MenuElement menuElement = new MenuElement();
 
 	@Test
-	@DisplayName("Проверить элементы меню")
+	@DisplayName("Проверить элементы главного меню")
 	public void menuTest() {
 		mainPage.clickMenu();
 		for (MenuElements element : MenuElements.values()) {
