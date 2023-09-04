@@ -20,7 +20,7 @@ public class TestBase {
 	static void beforeAll() {
 		Configuration.browser = AndroidLocalDriver.class.getName();
 		Configuration.browserSize = null;
-		Configuration.timeout = 15000;
+		Configuration.timeout = 10000;
 	}
 
 	@BeforeEach

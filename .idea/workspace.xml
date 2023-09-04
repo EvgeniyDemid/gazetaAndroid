@@ -4,30 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389016b7-750b-4940-8631-ba3e74fa2ba1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/driver/AndroidLocalDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/enams/MenuElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/Confirmation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/Footer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/MenuElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/NewsDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/tests/MainePageTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Gazeta.Ru_3.4.2_Apkpure.apk" afterDir="false" />
+    <list default="true" id="389016b7-750b-4940-8631-ba3e74fa2ba1" name="Changes" comment="end">
+      <change afterPath="$PROJECT_DIR$/src/test/java/mobile/config/DriverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config/common.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/driver/AndroidLocalDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/driver/AndroidLocalDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/pages/Footer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/Footer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/tests/MainePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/tests/MainePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +26,52 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gazetaAndroid" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gazetaAndroid" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gazetaAndroid" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gazetaAndroid" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="gazetaAndroid" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,8 +99,8 @@
       <recent name="C:\Users\Yevgeny.Demidov\IdeaProjects\gazetaAndroid\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ManePageTests.menuTest">
-    <configuration name="ManePageTests.manuTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.gazetaAndroid [allureServe]">
+    <configuration name="MainePageTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -85,7 +113,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mobile.tests.ManePageTests.manuTest&quot;" />
+            <option value="&quot;mobile.tests.MainePageTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -96,7 +124,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="ManePageTests.menuTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MainePageTests.checkMainPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -109,7 +137,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mobile.tests.ManePageTests.menuTest&quot;" />
+            <option value="&quot;mobile.tests.MainePageTests.checkMainPage&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -118,12 +146,83 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'mobile.tests'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;mobile.tests.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="gazetaAndroid [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="gazetaAndroid [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureServe" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ManePageTests.menuTest" />
-        <item itemvalue="Gradle.ManePageTests.manuTest" />
+        <item itemvalue="Gradle.gazetaAndroid [allureServe]" />
+        <item itemvalue="Gradle.gazetaAndroid [allureReport]" />
+        <item itemvalue="Gradle.Tests in 'mobile.tests'" />
+        <item itemvalue="Gradle.MainePageTests.checkMainPage" />
+        <item itemvalue="Gradle.MainePageTests" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +235,30 @@
       <option name="presentableId" value="Default" />
       <updated>1693244083977</updated>
     </task>
+    <task id="LOCAL-00001" summary="end">
+      <option name="closed" value="true" />
+      <created>1693482431661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693482431661</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="end" />
+    <option name="LAST_COMMIT_MESSAGE" value="end" />
   </component>
 </project>
