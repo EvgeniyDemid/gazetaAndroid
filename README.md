@@ -1,6 +1,6 @@
 <h1 >Проект по автоматизации тестирования мобильного приложения Gazeta.Ru</h1>
 
-![GZ.jpg](images/logo/GZ.jpg)
+![GZ.png](images/logo/GZ.png)
 
 ## Содержание 
 
@@ -41,7 +41,7 @@ gradle clean test
 ```
 
 <a id="allure"></a>
-## <img src="media/logo/Allure.svg" width="25" height="25"/></a> 
+## <img src="images/logo/Allure.svg" width="25" height="25"/></a> Allure Report
 
 ### Основное окно
 
