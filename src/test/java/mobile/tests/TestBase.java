@@ -5,7 +5,7 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import mobile.driver.AndroidLocalDriver;
 import mobile.helpers.Attach;
-import mobile.pages.Confirmation;
+import mobile.component.Confirmation;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

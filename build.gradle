@@ -32,7 +32,8 @@ repositories {
 
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.9.1')
-    testImplementation("com.codeborne:selenide:$selenideVersion",
+    testImplementation(
+            "com.codeborne:selenide:$selenideVersion",
             "io.qameta.allure:allure-selenide:$allureVersion",
             "io.appium:java-client:8.3.0",
             "commons-io:commons-io:2.11.0",
