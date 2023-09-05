@@ -1,6 +1,7 @@
 package mobile.enams;
 
 public enum MenuElements {
+
 	MAIN("Главная"),
 	NEWS_DAY("Новости дня"),
 	AUTHOR("Authors"),
