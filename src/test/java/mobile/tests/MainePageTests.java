@@ -1,10 +1,10 @@
 package mobile.tests;
 
 import mobile.enams.MenuElements;
-import mobile.pages.Footer;
+import mobile.component.Footer;
 import mobile.pages.MainPage;
-import mobile.pages.MenuElement;
-import mobile.pages.NewsDay;
+import mobile.component.MenuElement;
+import mobile.pages.NewsDayPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -12,12 +12,12 @@ public class MainePageTests extends TestBase {
 
 	private final MainPage mainPage = new MainPage();
 	private final Footer footer = new Footer();
-	private final NewsDay newsDay = new NewsDay();
+	private final NewsDayPage newsDayPage = new NewsDayPage();
 	private final MenuElement menuElement = new MenuElement();
 
 	@Test
 	@DisplayName("Проверить элементы главного меню")
-	public void menuTest() {
+	public void checkElementMenu() {
 		mainPage.clickMenu();
 		for (MenuElements element : MenuElements.values()) {
 			mainPage.checkElementMenu(element);
@@ -47,6 +47,6 @@ public class MainePageTests extends TestBase {
 	public void checkNewsDay() {
 		mainPage.clickMenu();
 		menuElement.clickNewDay();
-		newsDay.checkTitle();
+		newsDayPage.checkTitle();
 	}
 }
