@@ -8,6 +8,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
 public class Confirmation {
+
 	private final SelenideElement allowButton = $(AppiumBy.id("com.android.permissioncontroller:id/permission_allow_button"));
 
 	@Step("Нажать allow при запуске приложения")

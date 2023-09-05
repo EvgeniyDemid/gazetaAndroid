@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="389016b7-750b-4940-8631-ba3e74fa2ba1" name="Changes" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/images/logo/Allure.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Allure_TO.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Android-studio.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Appium.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Browserstack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/GZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/GitHub.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Gradle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Idea.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Jenkins.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Jira.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Junit5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Selenide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screen/AllureCase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screen/AllureReport.png" afterDir="false" />
+    <list default="true" id="389016b7-750b-4940-8631-ba3e74fa2ba1" name="Changes" comment="add readme">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/pages/Confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/Confirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/pages/Footer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/Footer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/pages/MenuElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/MenuElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/pages/NewsDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/pages/NewsDay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mobile/tests/MainePageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/tests/MainePageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +75,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Ucg3CPBKT6ZMUFaSARsOS29UCk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -259,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693858808374</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add readme">
+      <option name="closed" value="true" />
+      <created>1693860814979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693860814979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +277,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="end" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme" />
   </component>
 </project>

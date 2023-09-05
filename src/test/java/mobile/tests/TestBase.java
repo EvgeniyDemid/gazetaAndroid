@@ -14,7 +14,8 @@ import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
-	Confirmation confirmation = new Confirmation();
+
+	private final Confirmation confirmation = new Confirmation();
 
 	@BeforeAll
 	static void beforeAll() {

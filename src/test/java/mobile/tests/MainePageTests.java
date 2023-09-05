@@ -9,6 +9,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 public class MainePageTests extends TestBase {
+
 	private final MainPage mainPage = new MainPage();
 	private final Footer footer = new Footer();
 	private final NewsDay newsDay = new NewsDay();
